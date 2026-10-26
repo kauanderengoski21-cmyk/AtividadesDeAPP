@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sistema de Escolta</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Sistema de Escolta</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li>Escolta de cargas de armas</li>
+            <li>Proteção exclusiva VIP</li>
+            <li>Mapeamento e monitoramento de rotas</li>
+            <li>Gestão de riscos e pronta resposta</li>
+        </ul>
+    </nav>
+
+    <aside class="left">
+  
+    </aside>
+
+    <main class="main-content">
+
+<h2>Sistema de Escolta</h2>
+<div class="card">
+<h3>Card 1</h3>
+</div>
+
+<div class="card">
+<h3>Card 2</h3>
+</div>
+
+<div class="card">
+<h3>Card 3</h3>
+</div>
+
+<p>
+Oferecemos serviços especializados de escolta e proteção.
+</p>
+
+<h2>Nossos Serviços</h2>
+
+</main>
+
+    
+<aside class="right">
+<h2>Área Lateral Direita</h2>
+
+<div class="card">
+<h3>Card 1</h3>
+</div>
+
+<div class="card">
+<h3>Card 2</h3>
+</div>
+
+<div class="card">
+<h3>Card 3</h3>
+</div>
+</aside>
+
+<footer>
+        <p>Telefone: (55) 4002289-9922</p>
+        <p>Local: Sua cidade</p>
+        <p>E-mail: segurançaescoltas21@empresa.com</p>
+        <p>Instagram: @suaempresa</p>
+        <p>Facebook: Sua Empresa</p>
+</footer>
+
+</body>
+
+</html>
