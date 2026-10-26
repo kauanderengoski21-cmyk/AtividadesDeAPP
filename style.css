@@ -22,6 +22,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(180deg, #f4f7fb 0%, #eaf0f7 100%);
     color: var(--texto);
+    min-width: 320px;
+    line-height: 1.5;
 }
 
 img {
@@ -30,7 +32,7 @@ img {
 }
 
 .container {
-    width: min(1200px, 90%);
+    width: min(1200px, 92vw);
     margin: 0 auto;
 }
 
@@ -79,6 +81,7 @@ img {
     text-decoration: none;
     font-weight: 600;
     transition: background 0.2s ease;
+    border-radius: 8px;
 }
 
 .menu a:hover {
@@ -99,6 +102,7 @@ img {
     border: 1px solid rgba(65, 90, 119, 0.15);
     border-radius: 14px;
     box-shadow: 0 8px 24px var(--sombra);
+    overflow: hidden;
 }
 
 .sidebar {
@@ -196,6 +200,48 @@ img {
     }
 
     .cards-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .topo {
+        padding: 24px 0;
+    }
+
+    .topo h1 {
+        font-size: 2rem;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        gap: 8px;
+        padding: 10px 0;
+    }
+
+    .menu a {
+        width: 100%;
+        text-align: center;
+        padding: 14px 12px;
+    }
+
+    .layout,
+    .main-content,
+    .sidebar {
+        width: 100%;
+    }
+
+    .main-content,
+    .sidebar {
+        padding: 16px;
+    }
+
+    .card,
+    .hero {
+        padding: 14px 12px;
+    }
+
+    .rodape .container {
         grid-template-columns: 1fr;
     }
 }
